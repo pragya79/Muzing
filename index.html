@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe33a815e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <!-- <i class="fa-solid fa-forward"></i> -->
+                    <i class="fa-solid fa-bars" id="list">
+                    </i>
+                </div>
+            </nav>
+            <img id="song-image" src="./images/lover.jpg" alt="" class="song-img">
+            <h1 id="song-name">Cruel Summer</h1>
+            <p id="singer-name">Taylor Swift</p>
+
+            <audio id="song">
+                <source src="./songs/Cruel Summer.mp3">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div class="icon"> <i class="fa-solid fa-backward" id="prev"></i></div>
+                <div class="icon" onclick="playPause()"> <i class="fa-solid fa-play" id="ctrl"></i></div>
+                <div class="icon"> <i class="fa-solid fa-forward" id="next"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
