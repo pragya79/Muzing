@@ -32,9 +32,8 @@ Muzing is an elegant and user-friendly music player application with a visually 
 ## Usage
 
 1. Open the application in a web browser.
-2. Browse through the playlist to select a song.
-3. Use the controls to play, pause, or skip songs.
-4. Enjoy a seamless music experience with Muzing!
+2. Use the controls to play, pause, or skip songs.
+3. Enjoy a seamless music experience with Muzing!
 
 
 ## Contributing
